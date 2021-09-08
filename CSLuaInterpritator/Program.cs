@@ -12,7 +12,7 @@ namespace CSLuaInterpritator
             try
             {
                 Lua.DoFile("script.lua");
-                WriteLine("\nScript was sucessfuly loaded");
+                WriteLine("\nScript was successfully loaded");
             }
             catch (Exception e)
             {
